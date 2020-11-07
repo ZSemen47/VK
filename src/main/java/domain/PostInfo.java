@@ -8,7 +8,7 @@ public class PostInfo {
     private boolean markedAsAds;
     private boolean isPinned;
     private boolean friendsOnly;
-    private int countOFLikes;
+    private class Like{};
     private Object arrowToDown;
 
     public int getDate() {
@@ -60,13 +60,7 @@ public class PostInfo {
     public void setFriendsOnly(boolean friendsOnly) {
         this.friendsOnly = friendsOnly;
     }
-    public int getCountOFLikes() {
-        return countOFLikes;
-    }
 
-    public void setCountOFLikes(int countOFLikes) {
-        this.countOFLikes = countOFLikes;
-    }
     public Object getArrowToDown() {
         return arrowToDown;
     }
