@@ -9,6 +9,13 @@ public class PostInfo {
     private boolean isPinned;
     private boolean friendsOnly;
     private Like likesInfo;
+    private Geo geoinfo;
+    private Comment commentsinfo;
+    private Repost repostinfo;
+    private View viewsinfo;
+    private PostCurrentUserCan caninfo;
+    private PostId idinfo;
+    private PostSource sourceinfo;
     private Object arrowToDown;
 
     public int getDate() {
@@ -82,5 +89,33 @@ public class PostInfo {
     public void setLikesInfo(Like likesInfo) {
         this.likesInfo = likesInfo;
     }
+
+    public Geo getGeoinfo() { return geoinfo; }
+
+    public void setGeoinfo(Geo geoinfo) { this.geoinfo = geoinfo; }
+
+    public Comment getCommentsinfo() { return commentsinfo; }
+
+    public void setCommentsinfo(Comment commentsinfo) { this.commentsinfo = commentsinfo; }
+
+    public Repost getRepostinfo() { return repostinfo; }
+
+    public void setRepostinfo(Repost repostinfo) { this.repostinfo = repostinfo; }
+
+    public View getViewsinfo() { return viewsinfo; }
+
+    public void setViewsinfo(View viewsinfo) { this.viewsinfo = viewsinfo; }
+
+    public PostCurrentUserCan getCaninfo() { return caninfo; }
+
+    public void setCaninfo(PostCurrentUserCan caninfo) { this.caninfo = caninfo; }
+
+    public PostId getIdinfo() { return idinfo; }
+
+    public void setIdinfo(PostId idinfo) { this.idinfo = idinfo; }
+
+    public PostSource getSourceinfo() { return sourceinfo; }
+
+    public void setSourceinfo(PostSource sourceinfo) { this.sourceinfo = sourceinfo; }
 
 }
